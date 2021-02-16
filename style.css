@@ -22,6 +22,14 @@ ol {
   padding: 20px;
 }
 
+#line {
+  border-right: 1px solid black;
+  width: 100px;
+  margin: 0;
+  padding: 20px;
+  padding-left: 33px;
+}
+
 #grid {
   display: grid;
   grid-template-columns: 150px 1fr;
@@ -30,6 +38,7 @@ ol {
 #grid ol {
   padding-left: 33px;
 }
+
 
 #article {
   padding-left: 25px;
@@ -46,5 +55,9 @@ ol {
 
   h1 {
     border-bottom: none;
+  }
+
+  #line {
+      border-right: none;
   }
 }
